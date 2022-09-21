@@ -1,23 +1,23 @@
 // images
-import Logo from '../src/assets/img/header/logo.svg';
-import ResistanceImg from '../src/assets/img/workouts/resistance.png';
-import BoxingImg from '../src/assets/img/workouts/boxing.png';
-import BodyPumpImg from '../src/assets/img/workouts/body-pump.png';
-import YogaImg from '../src/assets/img/workouts/yoga.png';
-import FullBodyImg from '../src/assets/img/workouts/full-body.png';
-import FitnessImg from '../src/assets/img/workouts/fitness.png';
-import BattleRopeImg from '../src/assets/img/workouts/battle-rope.png';
-import CommunityImg1 from '../src/assets/img/community/img1.png';
-import CommunityImg2 from '../src/assets/img/community/img2.png';
-import CommunityImg3 from '../src/assets/img/community/img3.png';
-import CommunityImg4 from '../src/assets/img/community/img4.png';
-import JoinImg from '../src/assets/img/join/woman.png';
+import Logo from '../src/assets/header/logo.svg';
+import ResistanceImg from '../src/assets/workouts/resistance.png';
+import BoxingImg from '../src/assets/workouts/boxing.png';
+import BodyPumpImg from '../src/assets/workouts/body-pump.png';
+import YogaImg from '../src/assets/workouts/yoga.png';
+import FullBodyImg from '../src/assets/workouts/full-body.png';
+import FitnessImg from '../src/assets/workouts/fitness.png';
+import BattleRopeImg from '../src/assets/workouts/battle-rope.png';
+import CommunityImg1 from '../src/assets/community/img1.png';
+import CommunityImg2 from '../src/assets/community/img2.png';
+import CommunityImg3 from '../src/assets/community/img3.png';
+import CommunityImg4 from '../src/assets/community/img4.png';
+import JoinImg from '../src/assets/join/woman.png';
 // icons
-import UsersIcn from '../src/assets/img/about/icons/users-icn.svg';
-import CalendarIcn from '../src/assets/img/workouts/icons/calendar.svg';
-import PriceIcn from '../src/assets/img/pricing/icons/price.svg';
-import CommunityIcn from '../src/assets/img/community/icons/community-icn.svg';
-import QuestionMarkIcn from '../src/assets/img/faq/icons/question-mark.svg';
+import UsersIcn from '../src/assets/about/icons/users-icn.svg';
+import CalendarIcn from '../src/assets/workouts/icons/calendar.svg';
+import PriceIcn from '../src/assets/pricing/icons/price.svg';
+import CommunityIcn from '../src/assets/community/icons/community-icn.svg';
+import QuestionMarkIcn from '../src/assets/faq/icons/question-mark.svg';
 
 export const header = {
   logo: Logo,
