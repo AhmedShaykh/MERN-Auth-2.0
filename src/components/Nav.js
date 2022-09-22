@@ -8,9 +8,7 @@ const Nav = () => {
         {nav.map((item, idx) => {
           return (
             <li key={idx} className='hover:text-primary-200 transition'>
-              {/* <a href='#'> */}
               {item.name}
-              {/* </a> */}
             </li>
           );
         })}
