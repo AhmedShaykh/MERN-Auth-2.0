@@ -1,11 +1,10 @@
 import React from 'react';
-
-// import data
 import { banner } from '../data';
 
 const Banner = () => {
-  // destructure banner data
+
   const { titlePart1, titlePart2, subtitle, textBtn } = banner;
+
   return (
     <section className='bg-neutral-500 h-[790px]'>
       <div className='container mx-auto h-full'>
@@ -34,7 +33,7 @@ const Banner = () => {
               {textBtn}
             </button>
           </div>
-          {/* image */}
+
           <div
             className='bg-purple-50 w-full h-full bg-banner bg-cover bg-right lg:bg-center bg-no-repeat flex-1'
             data-aos='fade-right'

@@ -1,11 +1,10 @@
 import React from 'react';
-
-// import footer data
 import { footer } from '../data';
 
 const Footer = () => {
-  // destructure footer data
+
   const { logo, copyrightText } = footer;
+
   return (
     <footer className='bg-neutral-500 h-[125px] md:h-[195px] px-[20px]'>
       <div
@@ -13,11 +12,11 @@ const Footer = () => {
         data-aos='fade-up'
         data-aos-delay='200'
       >
-        {/* logo */}
+
         <a href='#'>
           <img className='' src={logo} alt='' />
         </a>
-        {/* copyright text */}
+
         <p className='text-neutral-300 text-sm'>{copyrightText}</p>
       </div>
     </footer>

@@ -1,1 +1,1 @@
-# gymme-landing
+# GYMme.com

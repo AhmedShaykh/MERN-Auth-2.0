@@ -1,12 +1,12 @@
 import React, { useState } from 'react';
-
-// import icons
 import { FaChevronCircleUp, FaChevronCircleDown } from 'react-icons/fa';
 
 const Accordion = ({ accordion }) => {
+
   const [isOpen, setIsOpen] = useState(false);
-  // destructure accordion
+
   const { question, answer } = accordion;
+
   return (
     <div onClick={() => setIsOpen(!isOpen)} className=' cursor-pointer'>
       <div className='bg-white border rounded-sm'>
@@ -21,9 +21,8 @@ const Accordion = ({ accordion }) => {
           </div>
         </div>
         <div
-          className={`${
-            isOpen ? 'min-h-[200px] lg:min-h-[160px]' : 'min-h-0'
-          } max-h-0 overflow-hidden flex justify-center transition-all px-[30px]`}
+          className={`${isOpen ? 'min-h-[200px] lg:min-h-[160px]' : 'min-h-0'
+            } max-h-0 overflow-hidden flex justify-center transition-all px-[30px]`}
         >
           <div className='mt-6'>{answer}</div>
         </div>

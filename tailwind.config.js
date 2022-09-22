@@ -33,8 +33,8 @@ module.exports = {
         page: '#fcfcff',
       },
       backgroundImage: {
-        banner: "url('/src/assets/img/banner/bg.png')",
-        faq: "url('/src/assets/img/faq/bg.svg')",
+        banner: "url('/src/assets/banner/bg.png')",
+        faq: "url('/src/assets/faq/bg.svg')",
       },
       backgroundSize: {
         auto: 'auto',

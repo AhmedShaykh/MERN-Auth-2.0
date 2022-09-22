@@ -1,4 +1,3 @@
-// images
 import Logo from '../src/assets/header/logo.svg';
 import ResistanceImg from '../src/assets/workouts/resistance.png';
 import BoxingImg from '../src/assets/workouts/boxing.png';
@@ -12,7 +11,6 @@ import CommunityImg2 from '../src/assets/community/img2.png';
 import CommunityImg3 from '../src/assets/community/img3.png';
 import CommunityImg4 from '../src/assets/community/img4.png';
 import JoinImg from '../src/assets/join/woman.png';
-// icons
 import UsersIcn from '../src/assets/about/icons/users-icn.svg';
 import CalendarIcn from '../src/assets/workouts/icons/calendar.svg';
 import PriceIcn from '../src/assets/pricing/icons/price.svg';
@@ -198,7 +196,6 @@ export const faq = {
 
 export const join = {
   image: JoinImg,
-  title: 'Wanna join & have fun?',
   subtitle:
     'We’ll keep you updated on the things you need to know about Gymme. Nothing more, nothing less.',
   btnText: 'Join now',

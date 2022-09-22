@@ -1,15 +1,15 @@
 import React, { useState } from 'react';
-
-// import icons
 import { BsCheckCircleFill } from 'react-icons/bs';
 
 const PlanList = ({ plans }) => {
+
   const [index, setIndex] = useState(0);
   return (
     <div className='flex flex-col lg:flex-row items-center justify-center max-w-[1280px] mx-auto gap-y-4'>
       {plans.map((plan, currentIndex) => {
-        // destructure plan
+
         const { name, price, list, delay } = plan;
+
         return (
           <div
             onClick={() => setIndex(currentIndex)}
@@ -27,9 +27,7 @@ const PlanList = ({ plans }) => {
               } flex justify-center items-center py-[40px] px-[30px] lg:min-h-[550px] transition duration-100`}
             >
               <div className='flex flex-row lg:flex-col gap-x-8 gap-y-8 lg:gap-x-0 items-center'>
-                {/* name & price wrapper */}
                 <div>
-                  {/* name */}
                   <div
                     className={`${
                       currentIndex === index
@@ -39,7 +37,6 @@ const PlanList = ({ plans }) => {
                   >
                     {name}
                   </div>
-                  {/* price */}
                   <div className='text-[40px] lg:text-[50px] font-primary font-extrabold text-center flex flex-col items-center justify-center'>
                     <div className='leading-none'>
                       <span className='tracking-[0.1px]'>{price}</span>
@@ -48,7 +45,6 @@ const PlanList = ({ plans }) => {
                     <span className='text-sm font-medium'>/month</span>
                   </div>
                 </div>
-                {/* list & btn wrapper */}
                 <div>
                   {/* list */}
                   <ul className='flex flex-col gap-y-4 mb-8'>
@@ -66,7 +62,6 @@ const PlanList = ({ plans }) => {
                       );
                     })}
                   </ul>
-                  {/* btn */}
                   <button
                     className={`${
                       currentIndex === index

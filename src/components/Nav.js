@@ -1,6 +1,4 @@
 import React from 'react';
-
-// import data
 import { nav } from '../data';
 
 const Nav = () => {
@@ -9,10 +7,10 @@ const Nav = () => {
       <ul className='flex gap-x-8 text-white'>
         {nav.map((item, idx) => {
           return (
-            <li key={idx}>
-              <a href='#' className='hover:text-primary-200 transition'>
-                {item.name}
-              </a>
+            <li key={idx} className='hover:text-primary-200 transition'>
+              {/* <a href='#'> */}
+              {item.name}
+              {/* </a> */}
             </li>
           );
         })}
