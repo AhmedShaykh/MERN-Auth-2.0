@@ -47,6 +47,9 @@
   .btn-sm {
     @apply font-primary font-bold uppercase text-[12px] leading-[18px] h-[42px] px-[30px] tracking-[1px];
   }
+  .btn-md {
+    @apply font-primary font-bold uppercase text-[12px] leading-[18px] h-[44px] px-[32px] tracking-[1px];
+  }
   .btn-lg {
     @apply font-primary font-bold uppercase text-[14px] leading-[18px] h-[46px] px-[40px] tracking-[1px];
   }
