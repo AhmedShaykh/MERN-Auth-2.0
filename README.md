@@ -1,1 +1,1 @@
-# MERN Stack Project!
+# MERN Auth 2.0!
